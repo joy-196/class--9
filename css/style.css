@@ -31,6 +31,28 @@ a {
 }
 
 
+#about{
+    padding: 98px 0;
+}
+.section_info{
+    text-align: center;
+}
+.section_info h2{
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+    text-transform: uppercase;
+}
+.section_info p{
+    font-size: 16px;
+    line-height: 41px;
+    color: #93969a;
+}
+.section_info p b{
+    font-size: 23px;
+    font-weight: 800;
+}
+
 /* common css end */
 
 /* nab section css start */
@@ -109,28 +131,7 @@ nav ul li a:hover{
 /* banner section css end */
 
 /* /*  about section css start  */
-#about{
-    padding: 98px 0;
-}
-#about .section_info{
-    text-align: center;
-    padding: 0 137px;
-}
-#about .section_info h2{
-    font-size: 46px;
-    font-weight: 800;
-    color: #02918c;
-    text-transform: uppercase;
-}
-#about .section_info p{
-    font-size: 16px;
-    line-height: 41px;
-    color: #93969a;
-}
-#about .section_info p b{
-    font-size: 23px;
-    font-weight: 800;
-}
+
 #about .about_item_wraper .about_item:last-child {
     border-right: none;
 }
@@ -152,5 +153,23 @@ nav ul li a:hover{
     font-size: 11px;
     line-height: 21px;
 }
+#about .section_info{
+    padding: 0 137px;
+    margin-bottom: 80px;
+}
 
- /* about section css end */ 
+/* /*  about section css end  */
+
+/* service section sss start  */
+
+#service .inner_container {
+    width: 50%;
+}
+#service .service_items{
+    width:50%;
+}
+
+#service .inner_container .section_info{
+    text-align: left;
+}
+/* service section sss start  */
